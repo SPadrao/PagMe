@@ -1,0 +1,38 @@
+# ⚙️ Ambiente e Segurança
+.env
+
+# 🐳 Docker
+**/target/
+**/node_modules/
+**/logs/
+
+# 💡 IDEs
+.vscode/
+.idea/
+
+# 📦 Node.js
+frontend/node_modules/
+frontend/dist/
+
+# 🛠️ Build outputs
+*.log
+*.lock
+*.pid
+
+# 🧪 Testes
+coverage/
+*.test.js
+*.test.ts
+jest.config.js
+
+# 🌐 Vite
+frontend/.vite/
+
+# ☕ Java & Maven
+backend/target/
+**/*.class
+
+# 🧼 Sistema
+*.swp
+.DS_Store
+Thumbs.db
